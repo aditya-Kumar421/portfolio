@@ -9,9 +9,9 @@ const Projects = () => {
       title: "AI Code Reviewer",
       description: "Automated code analysis tool that provides intelligent feedback and suggestions for code improvements, helping developers write better, more efficient code.",
       icon: <Bot className="w-6 h-6" />,
-      technologies: ["Node.js", "React.js", "MongoDB", "OpenAI API"],
-      githubUrl: "#",
-      liveUrl: "#",
+      technologies: ["Node.js", "React.js", "MongoDB", "Gemini API"],
+      githubUrl: "https://github.com/aditya-Kumar421/codeCriticAI",
+      liveUrl: "https://code-critic-ai-frontend.vercel.app/",
       highlights: [
         "Automated code quality analysis",
         "AI-powered suggestions",
@@ -22,9 +22,9 @@ const Projects = () => {
       title: "GenieSite",
       description: "AI-based webpage generator that creates responsive websites from simple descriptions, leveraging machine learning to understand design requirements.",
       icon: <Code className="w-6 h-6" />,
-      technologies: ["Django", "REST API", "PostgreSQL", "Redis", "AI/ML"],
-      githubUrl: "#",
-      liveUrl: "#",
+      technologies: ["Django", "REST API", "PostgreSQL", "Redis"],
+      githubUrl: "https://github.com/aditya-Kumar421/GenieSite",
+      liveUrl: "https://github.com/aditya-Kumar421/GenieSite",
       highlights: [
         "AI-powered website generation",
         "Responsive design automation",
@@ -33,14 +33,14 @@ const Projects = () => {
     },
     {
       title: "eCommerce Web App",
-      description: "Full-featured eCommerce platform with modern UI, secure authentication, real-time inventory management, and seamless checkout experience.",
+      description: "Full-featured eCommerce platform with modern UI, secure authentication, real-time inventory management, and seamless checkout user experience.",
       icon: <ShoppingCart className="w-6 h-6" />,
-      technologies: ["React.js", "Redux", "Node.js", "MongoDB", "Stripe"],
-      githubUrl: "#",
-      liveUrl: "#",
+      technologies: ["React.js", "Redux", "Django", "MongoDB"],
+      githubUrl: "https://github.com/aditya-Kumar421/eCommerce",
+      liveUrl: "https://github.com/aditya-Kumar421/eCommerce",
       highlights: [
         "Real-time inventory tracking",
-        "Secure payment integration",
+        "Admin panel for products",
         "Advanced search & filtering"
       ]
     }
@@ -151,7 +151,7 @@ const Projects = () => {
             variant="outline"
             size="lg"
             className="border-primary text-primary hover:bg-primary hover:text-primary-foreground"
-            onClick={() => window.open('https://github.com/ak-aditya', '_blank')}
+            onClick={() => window.open('https://github.com/aditya-kumar421', '_blank')}
           >
             <Github className="w-5 h-5 mr-2" />
             View All Projects on GitHub

@@ -6,15 +6,15 @@ const Experience = () => {
   const experience = {
     title: "Backend Developer Intern",
     company: "HLSR Technologies",
-    location: "Remote",
-    duration: "June 2024 – Present",
+    location: "Bengaluru (Remote)",
+    duration: "June 2024 - Present",
     achievements: [
       "Built scalable backend services for an AI-powered e-learning product",
-      "Improved performance by 30% using PostgreSQL optimization and Redis caching",
       "Designed and deployed 15+ REST APIs with JWT Auth; handling 10K+ daily requests",
-      "Used PostHog for retention/session analysis"
+      "Used PostHog for retention/session analysis",
+      "Deployed services to AWS and implemented CI/CD pipeline for automated deployments"
     ],
-    technologies: ["Node.js", "PostgreSQL", "Redis", "JWT", "PostHog", "REST APIs"]
+    technologies: ["FastAPI", "PostgreSQL","Data Streaming", "Redis", "JWT", "PostHog", "AWS"]
   };
 
   return (
@@ -40,12 +40,12 @@ const Experience = () => {
                   </h4>
                   <div className="flex flex-col sm:flex-row sm:items-center gap-2 text-muted-foreground">
                     <div className="flex items-center">
-                      <MapPin className="w-4 h-4 mr-1" />
-                      {experience.location}
+                      <Calendar className="w-4 h-4 mr-1" />
+                      <span className="mr-2">{experience.duration}</span>
                     </div>
                     <div className="flex items-center">
-                      <Calendar className="w-4 h-4 mr-1" />
-                      {experience.duration}
+                      <MapPin className="w-4 h-4 mr-1 " />
+                      {experience.location}
                     </div>
                   </div>
                 </div>
@@ -90,16 +90,6 @@ const Experience = () => {
             </CardContent>
           </Card>
 
-          {/* Additional Experience Highlight */}
-          <Card className="mt-8 bg-gradient-primary text-white">
-            <CardContent className="p-6 text-center">
-              <h4 className="text-xl font-bold mb-2">Performance Impact</h4>
-              <p className="text-lg opacity-90">
-                Improved system performance by <span className="font-bold">30%</span> and 
-                handle <span className="font-bold">10K+ daily requests</span> through optimization
-              </p>
-            </CardContent>
-          </Card>
         </div>
       </div>
     </section>

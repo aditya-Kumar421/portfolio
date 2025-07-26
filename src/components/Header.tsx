@@ -17,13 +17,16 @@ const Header = () => {
   }, []);
 
   const toggleTheme = () => {
-    setTheme(theme === "light" ? "dark" : "light");
+    setTheme(theme === "dark" ? "light" : "dark");
   };
 
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId);
     if (element) {
-      element.scrollIntoView({ behavior: "smooth" });
+      window.scrollTo({
+        top: element.offsetTop,
+        behavior: "smooth",
+      });
       setIsMenuOpen(false);
     }
   };

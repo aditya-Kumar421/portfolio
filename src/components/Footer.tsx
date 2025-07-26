@@ -7,17 +7,17 @@ const Footer = () => {
   const socialLinks = [
     {
       icon: <Linkedin className="w-5 h-5" />,
-      href: "https://linkedin.com/in/ak-aditya",
+      href: "https://www.linkedin.com/in/aditya-kumar421/",
       label: "LinkedIn"
     },
     {
       icon: <Github className="w-5 h-5" />,
-      href: "https://github.com/ak-aditya",
+      href: "https://github.com/aditya-kumar421",
       label: "GitHub"
     },
     {
       icon: <Code2 className="w-5 h-5" />,
-      href: "https://leetcode.com/ak-aditya",
+      href: "https://leetcode.com/u/aditya-Kumar421/",
       label: "LeetCode"
     }
   ];
@@ -28,7 +28,7 @@ const Footer = () => {
 
   return (
     <footer className="bg-gradient-secondary border-t border-border">
-      <div className="container mx-auto px-4 py-12">
+      <div className="container mx-auto px-4 pt-8 pb-1">
         <div className="text-center">
           {/* Logo/Name */}
           <div className="mb-6">
@@ -59,33 +59,9 @@ const Footer = () => {
             ))}
           </div>
 
-          {/* Navigation Links */}
-          <div className="flex flex-wrap justify-center gap-6 mb-8 text-sm">
-            {['Home', 'About', 'Skills', 'Experience', 'Projects', 'Education', 'Contact'].map((item) => (
-              <button
-                key={item}
-                onClick={() => {
-                  const element = document.getElementById(item.toLowerCase());
-                  element?.scrollIntoView({ behavior: 'smooth' });
-                }}
-                className="text-muted-foreground hover:text-primary transition-colors duration-200"
-              >
-                {item}
-              </button>
-            ))}
-          </div>
+          
 
-          {/* Copyright */}
-          <div className="border-t border-border pt-6">
-            <p className="text-muted-foreground text-sm flex items-center justify-center">
-              © {currentYear} Aditya Kumar. Made with{" "}
-              <Heart className="w-4 h-4 mx-1 text-red-500 fill-red-500" />
-              and lots of ☕
-            </p>
-            <p className="text-muted-foreground text-xs mt-2">
-              Built with React, Tailwind CSS, and modern web technologies
-            </p>
-          </div>
+          
         </div>
       </div>
     </footer>

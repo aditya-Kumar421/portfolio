@@ -51,8 +51,8 @@ const Contact = () => {
     {
       icon: <Mail className="w-5 h-5" />,
       label: "Email",
-      value: "ak.adityakumar4211@gmail.com",
-      href: "mailto:ak.adityakumar4211@gmail.com"
+      value: "ak.adityakumar421@gmail.com",
+      href: "mailto:ak.adityakumar421@gmail.com"
     },
     {
       icon: <Phone className="w-5 h-5" />,
@@ -66,17 +66,17 @@ const Contact = () => {
     {
       icon: <Linkedin className="w-5 h-5" />,
       label: "LinkedIn",
-      href: "https://linkedin.com/in/ak-aditya"
+      href: "https://www.linkedin.com/in/aditya-kumar421/"
     },
     {
       icon: <Github className="w-5 h-5" />,
       label: "GitHub",
-      href: "https://github.com/ak-aditya"
+      href: "https://github.com/aditya-kumar421"
     },
     {
       icon: <Code2 className="w-5 h-5" />,
       label: "LeetCode",
-      href: "https://leetcode.com/ak-aditya"
+      href: "https://leetcode.com/u/aditya-Kumar421/"
     }
   ];
 
@@ -219,8 +219,12 @@ const Contact = () => {
                 </div>
                 
                 <Button
-                  type="submit"
+                  type="button"
                   className="w-full bg-gradient-primary hover:opacity-90 transition-all duration-200 hover:scale-105"
+                  onClick={() => {
+                    const mailtoLink = `mailto:ak.adityakumar421@gmail.com?subject=${encodeURIComponent(formData.subject)}&body=${encodeURIComponent(`Name: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`)}`;
+                    window.location.href = mailtoLink;
+                  }}
                 >
                   <Send className="w-4 h-4 mr-2" />
                   Send Message

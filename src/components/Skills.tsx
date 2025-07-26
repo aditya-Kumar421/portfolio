@@ -17,19 +17,19 @@ const Skills = () => {
     {
       title: "Languages",
       icon: <Code className="w-6 h-6" />,
-      skills: ["JavaScript", "Python", "C/C++"],
+      skills: ["Python", "JavaScript", "C/C++","SQL"],
       color: "bg-blue-500/10 text-blue-600 dark:text-blue-400"
     },
     {
       title: "Frontend",
       icon: <Globe className="w-6 h-6" />,
-      skills: ["React.js", "Redux", "Tailwind CSS"],
+      skills: ["HTML", "CSS","React.js", "Redux", "Tailwind CSS"],
       color: "bg-green-500/10 text-green-600 dark:text-green-400"
     },
     {
       title: "Backend",
       icon: <Server className="w-6 h-6" />,
-      skills: ["Node.js", "Express.js", "FastAPI", "Django", "RESTful APIs", "JWT Authentication"],
+      skills: ["Django","FastAPI","Node.js","Express.js","RESTful APIs"],
       color: "bg-purple-500/10 text-purple-600 dark:text-purple-400"
     },
     {
@@ -39,9 +39,15 @@ const Skills = () => {
       color: "bg-orange-500/10 text-orange-600 dark:text-orange-400"
     },
     {
+      title: "DevOps & CI/CD",
+      icon: <Target className="w-6 h-6" />,
+      skills: ["AWS", "Docker", "GitHub Actions", "CI/CD Pipeline", "Agile Methodology"],
+      color: "bg-teal-500/10 text-teal-600 dark:text-teal-400"
+    },
+    {
       title: "Tools & Technologies",
       icon: <Settings className="w-6 h-6" />,
-      skills: ["AWS", "Git/GitHub", "Docker", "OpenAI APIs", "PostHog", "Postman"],
+      skills: ["Git/GitHub","OpenAI API", "PostHog", "Postman"],
       color: "bg-cyan-500/10 text-cyan-600 dark:text-cyan-400"
     }
   ];
@@ -50,17 +56,17 @@ const Skills = () => {
     {
       title: "Problem Solving",
       icon: <Lightbulb className="w-5 h-5" />,
-      description: "600+ DSA problems solved"
+      description: "450+ DSA problems solved"
     },
     {
       title: "Team Collaboration",
       icon: <Users className="w-5 h-5" />,
-      description: "Leading 42 students at Cloud Computing Cell"
+      description: "Working with Cloud Computing Cell"
     },
     {
       title: "Time Management",
       icon: <Clock className="w-5 h-5" />,
-      description: "Balancing academics and professional work"
+      description: "Thriving in both academic and career"
     }
   ];
 

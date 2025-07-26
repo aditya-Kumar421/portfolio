@@ -1,5 +1,5 @@
 import { Card, CardContent } from "@/components/ui/card";
-import profileImage from "@/assets/profile-placeholder.jpg";
+import profileImage from "@/assets/adi_new_dp_hd.jpeg";
 
 const About = () => {
   return (
@@ -30,50 +30,19 @@ const About = () => {
             <div className="space-y-6">
               <Card className="border-none shadow-md">
                 <CardContent className="p-8">
-                  <h3 className="text-2xl font-semibold mb-4 text-foreground">
-                    Hello! I'm Aditya
+                  <h3 className="text-3xl font-bold mb-4 text-foreground">
+                    Hi, I'm Aditya
                   </h3>
-                  <div className="space-y-4 text-muted-foreground">
+                  <div className="space-y-4 text-lg text-muted-foreground">
                     <p className="leading-relaxed">
-                      I'm a passionate Backend Developer and Computer Science student at 
-                      Ajay Kumar Garg Engineering College with a strong focus on building 
-                      scalable and efficient systems.
+                      — a passionate developer who loves turning complex ideas into elegant digital solutions.
                     </p>
                     <p className="leading-relaxed">
-                      Currently working as a Backend Developer Intern at HLSR Technologies, 
-                      where I've built scalable backend services for AI-powered e-learning 
-                      products and improved performance by 30% through PostgreSQL optimization 
-                      and Redis caching.
-                    </p>
-                    <p className="leading-relaxed">
-                      With expertise in JavaScript, Python, React.js, Node.js, and various 
-                      databases, I enjoy solving complex problems and creating innovative 
-                      solutions. I've solved 600+ DSA problems and maintain a 3-star rating 
-                      on CodeChef.
-                    </p>
-                    <p className="leading-relaxed">
-                      When I'm not coding, I'm leading tech events as a Co-ordinator at the 
-                      Cloud Computing Cell, helping fellow students grow their technical skills.
+                      Detail-oriented and impact-driven, I bring hands-on experience across frontend and backend, enabling me to craft scalable, seamless products from end to end. I thrive in collaborative environments, value clean architecture, and never stop learning. My goal is simple: build user-focused software that's not just functional, but future-ready.
                     </p>
                   </div>
                 </CardContent>
               </Card>
-
-              {/* Quick Stats */}
-              <div className="grid grid-cols-2 gap-4">
-                <Card className="border-none shadow-md">
-                  <CardContent className="p-6 text-center">
-                    <div className="text-2xl font-bold text-primary mb-2">600+</div>
-                    <div className="text-sm text-muted-foreground">DSA Problems Solved</div>
-                  </CardContent>
-                </Card>
-                <Card className="border-none shadow-md">
-                  <CardContent className="p-6 text-center">
-                    <div className="text-2xl font-bold text-primary mb-2">8.5</div>
-                    <div className="text-sm text-muted-foreground">CGPA</div>
-                  </CardContent>
-                </Card>
-              </div>
             </div>
           </div>
         </div>
