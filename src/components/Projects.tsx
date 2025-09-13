@@ -11,7 +11,7 @@ const Projects = () => {
       icon: <Bot className="w-6 h-6" />,
       technologies: ["Node.js", "React.js", "MongoDB", "Gemini API"],
       githubUrl: "https://github.com/aditya-Kumar421/codeCriticAI",
-      liveUrl: "https://code-critic-ai-frontend.vercel.app/",
+      liveUrl: "https://codecritic.adityakumar.live/",
       highlights: [
         "Automated code quality analysis",
         "AI-powered suggestions",
@@ -19,23 +19,23 @@ const Projects = () => {
       ]
     },
     {
-      title: "GenieSite",
-      description: "AI-based webpage generator that creates responsive websites from simple descriptions, leveraging machine learning to understand design requirements.",
+      title: "Intelligent Insights",
+      description: "Developed an AI-powered document intelligence system for KMRL to automate summarization, improve compliance, and deliver rapid, multilingual insights across departments.",
       icon: <Code className="w-6 h-6" />,
-      technologies: ["Django", "REST API", "PostgreSQL", "Redis"],
-      githubUrl: "https://github.com/aditya-Kumar421/GenieSite",
-      liveUrl: "https://github.com/aditya-Kumar421/GenieSite",
+      technologies: ["Fast API", "React.js", "MongoDB", "GCP"],
+      githubUrl: "https://github.com/aditya-Kumar421/kko-backend",
+      liveUrl: "https://kko.adityakumar.live",
       highlights: [
-        "AI-powered website generation",
-        "Responsive design automation",
-        "Fast deployment pipeline"
+        "Automated Document Summaries",
+        "Multilingual Insights Delivery",
+        "Compliance-Ready Knowledge Flow"
       ]
     },
     {
       title: "eCommerce Web App",
       description: "Full-featured eCommerce platform with modern UI, secure authentication, real-time inventory management, and seamless checkout user experience.",
       icon: <ShoppingCart className="w-6 h-6" />,
-      technologies: ["React.js", "Redux", "Django", "MongoDB"],
+      technologies: [ "Django","React.js", "PostgreSQL", "Redux"],
       githubUrl: "https://github.com/aditya-Kumar421/eCommerce",
       liveUrl: "https://github.com/aditya-Kumar421/eCommerce",
       highlights: [

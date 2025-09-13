@@ -35,19 +35,19 @@ const Skills = () => {
     {
       title: "Database",
       icon: <Database className="w-6 h-6" />,
-      skills: ["PostgreSQL", "MySQL", "MongoDB", "Redis"],
+      skills: ["PostgreSQL", "MySQL", "MongoDB", "Redis", "Vector Database"],
       color: "bg-orange-500/10 text-orange-600 dark:text-orange-400"
     },
     {
       title: "DevOps & CI/CD",
       icon: <Target className="w-6 h-6" />,
-      skills: ["AWS", "Docker", "GitHub Actions", "CI/CD Pipeline", "Agile Methodology"],
+      skills: ["AWS", "Docker", "GitHub Actions", "CI/CD Pipeline", "Google Cloud Platform"],
       color: "bg-teal-500/10 text-teal-600 dark:text-teal-400"
     },
     {
       title: "Tools & Technologies",
       icon: <Settings className="w-6 h-6" />,
-      skills: ["Git/GitHub","OpenAI API", "PostHog", "Postman"],
+      skills: ["Git/GitHub","OpenAI API", "PostHog", "Postman", "Gemini API"],
       color: "bg-cyan-500/10 text-cyan-600 dark:text-cyan-400"
     }
   ];
