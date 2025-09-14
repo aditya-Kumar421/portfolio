@@ -6,10 +6,6 @@ A modern, responsive portfolio website built with React, TypeScript, and Tailwin
 
 Visit the live portfolio: [https://adityakumar.live](https://portfolio.adityakumar.live)
 
-## 📸 Screenshots
-
-The portfolio features a clean, professional design with dark/light theme support and smooth animations.
-
 ## 🚀 Features
 
 - **Responsive Design**: Fully responsive layout that works on all device sizes
